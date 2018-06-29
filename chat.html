@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>chat.socket.io</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets\bulma-docs.min.css" />
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js"></script>
+  <script src="assets/main.js"></script>
+  </head>
+
+<body>
+  <nav class="navbar is-transparent">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html">
+                <img src="assets\l2.png" alt="Agenda" width="50">
+                <h2> Chat.socket.io </h2>
+              </a>
+              <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+              <div class="navbar-start">
+                
+                <a class="navbar-item" href="/">
+                  Sair
+                </a>
+              </div>       
+            </div>
+          </nav>
+
+    <div class="username_container" id="nick">
+        <span>Digite seu nickname:</span>
+        <form id="submit"><input type="text" id="username" /></form>
+    </div>
+    
+    <div id="chat" hidden>
+        <div class="menu">
+            <div class="name" id="name">Nome</div>
+            <div class="last" id="time">00:00</div>
+        </div>
+    
+        <ol class="chat"></ol>
+      
+        <input class="areatext" type="text" placeholder="Digite sua mensagem..." id="textarea" />
+    </div>
+</body>
+</html>

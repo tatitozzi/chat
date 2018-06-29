@@ -1,0 +1,40 @@
+{
+  "name": "socketio-simple-chat",
+  "version": "1.0.0",
+  "description": "Teste do chat.io",
+<<<<<<< HEAD
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+=======
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 35bf5be9904f0a20eb4cf67a03982ea07d15ebbd
+  },
+  "repository": {
+    "url": "http://",
+    "type": "git"
+  },
+  "engines": {
+    "npm": "6.1.0",
+    "node": "8.9.4"
+  },
+  "keywords": [
+    "chat",
+    "heroku"
+  ],
+  "author": "tz",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "i": "^0.3.5",
+    "jquery": "^3.3.1",
+    "npm": "^3.10.9",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^1.5.1",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {}
+}
