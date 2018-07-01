@@ -7,9 +7,9 @@
   "scripts": {
     "start": "node start.js"
 =======
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
 >>>>>>> 35bf5be9904f0a20eb4cf67a03982ea07d15ebbd
   },
