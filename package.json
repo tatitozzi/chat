@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Teste do chat.io",
 
-  "main": "start.js",
   "scripts": {
     "start": "node start.js"
 
